@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "davesignco",
+	"version": "${version}",
+	"name": "DaveSignCo",
+	"description": "A small little mod to aid you with your sign needs :)",
+	"authors": [
+		"SpaceDave"
+	],
+	"contact": {
+		"homepage": "https://github.com/SpaceDave1337",
+		"sources": "https://github.com/SpaceDave1337/davesgalacticemporium-1.19.4"
+	},
+	"license": "MIT",
+	"icon": "assets/davesignco/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"spacedave.davesignco.DaveSignCo"
+		],
+		"client": [
+			"spacedave.davesignco.DaveSignCoClient"
+		],
+		"fabric-datagen": [
+			"spacedave.davesignco.DaveSignCoDataGenerator"
+		]
+	},
+	"mixins": [
+		"davesignco.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
