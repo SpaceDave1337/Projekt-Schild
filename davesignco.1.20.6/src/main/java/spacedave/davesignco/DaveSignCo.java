@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import spacedave.davesignco.block.DSCBlocks;
+import spacedave.davesignco.item.DSCItemGroups;
 
 public class DaveSignCo implements ModInitializer {
 	public static final String MOD_ID = "davesignco";
@@ -15,6 +17,7 @@ public class DaveSignCo implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		DSCBlocks.registerDSCBlocks();
+		DSCItemGroups.registerItemGroups();
 	}
 }

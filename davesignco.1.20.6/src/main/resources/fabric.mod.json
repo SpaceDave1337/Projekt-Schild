@@ -3,13 +3,14 @@
 	"id": "davesignco",
 	"version": "${version}",
 	"name": "DaveSignCo",
-	"description": "A small little mod to aid you with your sign needs :)",
+	"description": "A mod that adds a variety of signs, including but not limited to, those from EN ISO 7010, STVO, and ESO.",
 	"authors": [
-		"SpaceDave"
+		"SpaceDave",
+		"L0rdzie"
 	],
 	"contact": {
 		"homepage": "https://github.com/SpaceDave1337",
-		"sources": "https://github.com/SpaceDave1337/davesgalacticemporium-1.19.4"
+		"sources": "https://github.com/SpaceDave1337/Projekt-Schild"
 	},
 	"license": "MIT",
 	"icon": "assets/davesignco/icon.png",
@@ -30,11 +31,13 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.6",
+		"minecraft": ">=1.20.1 <=1.20.6",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"create": "create",
+		"railways": "railways"
+
 	}
 }
