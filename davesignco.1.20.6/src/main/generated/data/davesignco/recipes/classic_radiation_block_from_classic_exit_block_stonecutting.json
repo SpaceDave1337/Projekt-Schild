@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "davesignco:classic_exit_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "davesignco:classic_radiation_block"
+  }
+}

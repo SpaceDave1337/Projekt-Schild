@@ -13,7 +13,7 @@ public class DaveSignCoClient implements ClientModInitializer {
     }
 
     private void registerRenderLayers(){
-        for (Block block : DSCBlocks.CUTOUT_BLOCKS){
+        for (Block block : DSCBlocks.cutoutBlocks){
             BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
         }
     }

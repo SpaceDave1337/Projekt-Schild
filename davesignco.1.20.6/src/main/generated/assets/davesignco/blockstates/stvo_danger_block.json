@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "davesignco:block/stvo_danger_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "davesignco:block/stvo_danger_block"
+    },
+    "facing=south": {
+      "model": "davesignco:block/stvo_danger_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davesignco:block/stvo_danger_block",
+      "y": 270
+    }
+  }
+}

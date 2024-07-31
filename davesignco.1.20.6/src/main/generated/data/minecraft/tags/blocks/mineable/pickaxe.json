@@ -1,0 +1,21 @@
+{
+  "values": [
+    "davesignco:classic_alarm_block",
+    "davesignco:classic_arrow_back_block",
+    "davesignco:classic_arrow_down_block",
+    "davesignco:classic_arrow_left_block",
+    "davesignco:classic_arrow_right_block",
+    "davesignco:classic_arrow_up_block",
+    "davesignco:classic_biohazard_block",
+    "davesignco:classic_danger_block",
+    "davesignco:classic_death_block",
+    "davesignco:classic_electricity_block",
+    "davesignco:classic_exit_block",
+    "davesignco:classic_irritant_block",
+    "davesignco:classic_no_entry_block",
+    "davesignco:classic_one_way_block",
+    "davesignco:classic_panel_block",
+    "davesignco:classic_radiation_block",
+    "davesignco:stvo_danger_block"
+  ]
+}

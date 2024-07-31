@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "davesignco:classic_electricity_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "davesignco:classic_alarm_block"
+  }
+}

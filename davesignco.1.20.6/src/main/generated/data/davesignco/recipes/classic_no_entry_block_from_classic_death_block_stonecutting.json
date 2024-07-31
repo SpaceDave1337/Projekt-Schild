@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "davesignco:classic_death_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "davesignco:classic_no_entry_block"
+  }
+}

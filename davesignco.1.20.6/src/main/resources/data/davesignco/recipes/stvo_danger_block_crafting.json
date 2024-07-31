@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " W ",
+    "#B#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_concrete"
+    },
+    "W": {
+      "item": "minecraft:white_concrete"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "id": "davesignco:stvo_danger_block",
+    "count": 8
+  }
+}

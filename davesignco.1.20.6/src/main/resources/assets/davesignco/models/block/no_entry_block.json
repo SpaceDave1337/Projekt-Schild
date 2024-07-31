@@ -1,7 +1,0 @@
-{
-  "parent": "davesignco:base/basic_sign",
-  "textures": {
-    "all": "davesignco:block/test_block",
-    "particle": "davesignco:block/test_block"
-  }
-}

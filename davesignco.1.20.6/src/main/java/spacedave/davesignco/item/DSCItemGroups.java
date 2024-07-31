@@ -1,6 +1,7 @@
 package spacedave.davesignco.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Block;
 import net.minecraft.block.MagmaBlock;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,10 +18,11 @@ public class DSCItemGroups {
     public static final ItemGroup DSC_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(DaveSignCo.MOD_ID,"davesignco"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.davesignco"))
-                    .icon(()-> new ItemStack(DSCBlocks.TEST_BLOCK))
+                    .icon(()-> new ItemStack(DSCBlocks.CLASSIC_ALARM_BLOCK))
                     .entries(((displayContext, entries) -> {
-                        entries.add(DSCBlocks.TEST_BLOCK);
-                        entries.add(DSCBlocks.NO_ENTRY_BLOCK);
+                        for (Block block : DSCBlocks.basicBlocks){
+                            entries.add(block);
+                        }
                     }))
                     .build());
     public static void registerItemGroups(){

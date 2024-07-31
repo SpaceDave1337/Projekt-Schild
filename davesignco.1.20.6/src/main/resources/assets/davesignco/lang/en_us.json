@@ -1,5 +1,22 @@
 {
-  "block.davesignco.test_block": "Test Block",
+  "itemgroup.davesignco": "Dave Sign Co.",
 
-  "itemgroup.davesignco": "Dave Sign Co."
+  "block.davesignco.classic_alarm_block": "DBE General Hazard Sign",
+  "block.davesignco.classic_arrow_back_block": "DBE Arrow Back Sign",
+  "block.davesignco.classic_arrow_down_block": "DBE Arrow Down Sign",
+  "block.davesignco.classic_arrow_left_block": "DBE Arrow Left Sign",
+  "block.davesignco.classic_arrow_right_block": "DBE Arrow Right Sign",
+  "block.davesignco.classic_arrow_up_block": "DBE Arrow Up Sign",
+  "block.davesignco.classic_biohazard_block": "DBE Biohazard Sign",
+  "block.davesignco.classic_danger_block": "DBE General Warning Sign",
+  "block.davesignco.classic_death_block": "DBE Death Hazard Sign",
+  "block.davesignco.classic_electricity_block": "DBE Electricity Hazard Sign",
+  "block.davesignco.classic_exit_block": "DBE Emergency Exit Sign",
+  "block.davesignco.classic_irritant_block": "DBE Irritant Hazard Sign",
+  "block.davesignco.classic_no_entry_block": "DBE No Entry Sign",
+  "block.davesignco.classic_one_way_block": "DBE One Way Sign",
+  "block.davesignco.classic_panel_block": "DBE Panel Decal",
+  "block.davesignco.classic_radiation_block": "DBE Radiation Hazard Sign",
+
+  "block.davesignco.stvo_danger_block": "TC Danger Ahead Sign"
 }
