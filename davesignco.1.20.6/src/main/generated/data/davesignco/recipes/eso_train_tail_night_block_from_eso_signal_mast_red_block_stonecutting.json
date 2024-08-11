@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "davesignco:eso_signal_mast_red_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "davesignco:eso_train_tail_night_block"
+  }
+}

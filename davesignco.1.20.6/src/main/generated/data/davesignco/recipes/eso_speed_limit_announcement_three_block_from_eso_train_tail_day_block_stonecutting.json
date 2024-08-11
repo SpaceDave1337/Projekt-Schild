@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "davesignco:eso_train_tail_day_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "davesignco:eso_speed_limit_announcement_three_block"
+  }
+}

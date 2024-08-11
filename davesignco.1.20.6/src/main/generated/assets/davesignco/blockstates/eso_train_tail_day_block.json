@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "davesignco:block/eso_train_tail_day_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "davesignco:block/eso_train_tail_day_block"
+    },
+    "facing=south": {
+      "model": "davesignco:block/eso_train_tail_day_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davesignco:block/eso_train_tail_day_block",
+      "y": 270
+    }
+  }
+}

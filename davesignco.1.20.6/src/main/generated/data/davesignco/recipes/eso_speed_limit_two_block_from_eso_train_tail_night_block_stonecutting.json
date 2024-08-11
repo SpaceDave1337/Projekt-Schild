@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "davesignco:eso_train_tail_night_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "davesignco:eso_speed_limit_two_block"
+  }
+}

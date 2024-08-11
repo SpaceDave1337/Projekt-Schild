@@ -1,0 +1,17 @@
+0.1.0:
+-Added DBE "Classic" Signs
+-Added Danger Traffic Code Sign
+-Added recipes
+
+0.2.0:
+-Updated Classic Sign Textures
+-Added Railway Signaling Regulation Signs:
+	-Speed Limit Announcement (ESO 1959 Signal Zs 3)
+	-Speed Limit (ESO 1959 Signal Zs 3v
+	-Advance Signal (ESO 1959 Signal So 3a)
+	-Whistle & Whistle Exclusion (ESO 1959 Signal Bü 4)
+	-End Of Train Signals (ESO 1959 Signal Zg 102 or Signal Zg 2) (emissive)
+	-3 Colored Signal Masts (ESO 1959 Mastschild)
+-Added recipes
+-Changed item order in DSC tab
+x.x.x:

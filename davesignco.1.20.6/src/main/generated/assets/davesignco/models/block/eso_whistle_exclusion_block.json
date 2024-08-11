@@ -1,0 +1,7 @@
+{
+  "parent": "davesignco:base/basic_sign",
+  "textures": {
+    "all": "davesignco:block/eso_whistle_exclusion_block",
+    "particle": "davesignco:block/eso_whistle_exclusion_block"
+  }
+}

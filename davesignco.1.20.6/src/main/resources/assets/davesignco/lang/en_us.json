@@ -18,5 +18,37 @@
   "block.davesignco.classic_panel_block": "DBE Panel Decal",
   "block.davesignco.classic_radiation_block": "DBE Radiation Hazard Sign",
 
-  "block.davesignco.stvo_danger_block": "TC Danger Ahead Sign"
+  "block.davesignco.stvo_danger_block": "TC Danger Ahead Sign",
+
+  "block.davesignco.eso_speed_limit_announcement_one_block": "RSR Speed Limit Announcement 10km/h",
+  "block.davesignco.eso_speed_limit_announcement_two_block": "RSR Speed Limit Announcement 20km/h",
+  "block.davesignco.eso_speed_limit_announcement_three_block": "RSR Speed Limit Announcement 30km/h",
+  "block.davesignco.eso_speed_limit_announcement_four_block": "RSR Speed Limit Announcement 40km/h",
+  "block.davesignco.eso_speed_limit_announcement_five_block": "RSR Speed Limit Announcement 50km/h",
+  "block.davesignco.eso_speed_limit_announcement_six_block": "RSR Speed Limit Announcement 60km/h",
+  "block.davesignco.eso_speed_limit_announcement_seven_block": "RSR Speed Limit Announcement 70km/h",
+  "block.davesignco.eso_speed_limit_announcement_eight_block": "RSR Speed Limit Announcement 80km/h",
+  "block.davesignco.eso_speed_limit_announcement_nine_block": "RSR Speed Limit Announcement 90km/h",
+
+  "block.davesignco.eso_speed_limit_one_block": "RSR Speed Limit 10km/h",
+  "block.davesignco.eso_speed_limit_two_block": "RSR Speed Limit 20km/h",
+  "block.davesignco.eso_speed_limit_three_block": "RSR Speed Limit 30km/h",
+  "block.davesignco.eso_speed_limit_four_block": "RSR Speed Limit 40km/h",
+  "block.davesignco.eso_speed_limit_five_block": "RSR Speed Limit 50km/h",
+  "block.davesignco.eso_speed_limit_six_block": "RSR Speed Limit 60km/h",
+  "block.davesignco.eso_speed_limit_seven_block": "RSR Speed Limit 70km/h",
+  "block.davesignco.eso_speed_limit_eight_block": "RSR Speed Limit 80km/h",
+  "block.davesignco.eso_speed_limit_nine_block": "RSR Speed Limit 90km/h",
+  "block.davesignco.eso_speed_limit_end_block": "RSR End of Speed Limit",
+
+  "block.davesignco.eso_advance_signal_block": "RSR Advance Signal",
+  "block.davesignco.eso_whistle_block": "RSR Whistle Board",
+  "block.davesignco.eso_whistle_exclusion_block": "RSR Stop Between Whistle Board And Railway Crossing",
+
+  "block.davesignco.eso_train_tail_day_block": "RSR End Of Train Signal Daytime",
+  "block.davesignco.eso_train_tail_night_block": "RSR End Of Train Signal Nighttime",
+
+  "block.davesignco.eso_signal_mast_black_block": "RSR Black Signal Mast",
+  "block.davesignco.eso_signal_mast_red_block": "RSR Red Signal Mast",
+  "block.davesignco.eso_signal_mast_white_block": "RSR White Signal Mast"
 }

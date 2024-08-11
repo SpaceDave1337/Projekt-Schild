@@ -12,6 +12,7 @@ public class DaveSignCoDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(DSCBlockTagProvider::new);
+		pack.addProvider(DSCItemTagProvider::new);
 		pack.addProvider(DSCLootTableProvider::new);
 		pack.addProvider(DSCModelProvider::new);
 		pack.addProvider(DSCRecipeProvider::new);

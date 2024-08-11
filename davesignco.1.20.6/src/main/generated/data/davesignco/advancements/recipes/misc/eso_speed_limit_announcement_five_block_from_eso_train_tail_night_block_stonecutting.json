@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_eso_train_tail_night_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "davesignco:eso_train_tail_night_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:eso_speed_limit_announcement_five_block_from_eso_train_tail_night_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_eso_train_tail_night_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:eso_speed_limit_announcement_five_block_from_eso_train_tail_night_block_stonecutting"
+    ]
+  }
+}

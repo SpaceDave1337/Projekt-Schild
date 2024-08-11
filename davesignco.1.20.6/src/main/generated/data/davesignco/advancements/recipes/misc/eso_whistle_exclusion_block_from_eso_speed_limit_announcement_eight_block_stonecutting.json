@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_eso_speed_limit_announcement_eight_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "davesignco:eso_speed_limit_announcement_eight_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:eso_whistle_exclusion_block_from_eso_speed_limit_announcement_eight_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_eso_speed_limit_announcement_eight_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:eso_whistle_exclusion_block_from_eso_speed_limit_announcement_eight_block_stonecutting"
+    ]
+  }
+}

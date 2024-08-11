@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_classic_arrow_down_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "davesignco:classic_arrow_down_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stvo_danger_block_from_classic_arrow_down_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_classic_arrow_down_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stvo_danger_block_from_classic_arrow_down_block_stonecutting"
+    ]
+  }
+}
