@@ -18,5 +18,8 @@ public class DSCLootTableProvider extends FabricBlockLootTableProvider {
         for (Block block : DSCBlocks.basicBlocks) {
         addDrop(block);
         }
+        for (Block block : DSCBlocks.basicLargeBlocks) {
+            addDrop(block);
+        }
     }
 }

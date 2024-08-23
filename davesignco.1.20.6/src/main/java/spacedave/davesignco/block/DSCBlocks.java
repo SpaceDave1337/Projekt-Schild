@@ -17,6 +17,8 @@ public class DSCBlocks {
 
     public static List<Block> cutoutBlocks = new ArrayList<>();
     public static List<Block> basicBlocks = new ArrayList<>();
+    public static List<Block> basicLargeBlocks = new ArrayList<>();
+
     public static List<Block> classicBlocks = new ArrayList<>();
     public static List<Block> stvoBlocks = new ArrayList<>();
     public static List<Block> esoBlocks = new ArrayList<>();
@@ -72,6 +74,11 @@ public class DSCBlocks {
     public static final BasicSignBlock ESO_SIGNAL_MAST_RED_BLOCK = registerBasicSignBlock("eso_signal_mast_red_block", new BasicSignBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()), true, esoBlocks);
     public static final BasicSignBlock ESO_SIGNAL_MAST_WHITE_BLOCK = registerBasicSignBlock("eso_signal_mast_white_block", new BasicSignBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()), true, esoBlocks);
 
+    public static final BasicLargeSignBlock ESO_SEMAPHORE_BLOCK = registerBasicLargeSignBlock("eso_semaphore_block", new BasicLargeSignBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()), true, esoBlocks);
+
+    public static final BasicLargeSignBlock ESO_NEXT_MAIN_SIGNAL_SHOWS_STOP_BOTTOM_BLOCK = registerBasicLargeSignBlock("eso_next_main_signal_shows_stop_bottom_block", new BasicLargeSignBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()), true, esoBlocks);
+    public static final BasicSignBlock ESO_NEXT_MAIN_SIGNAL_SHOWS_STOP_TOP_BLOCK = registerBasicSignBlock("eso_next_main_signal_shows_stop_top_block", new BasicSignBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()), true, esoBlocks);
+
     private static Block registerBlock(String name, Block block, boolean cutout, List<Block> type){
 
         basicBlocks.add(block);
@@ -100,6 +107,15 @@ public class DSCBlocks {
         return Registry.register(Registries.BLOCK,new Identifier(DaveSignCo.MOD_ID, name), block);
     }
 
+    private static BasicLargeSignBlock registerBasicLargeSignBlock(String name, BasicLargeSignBlock block, boolean cutout, List<Block> type){
+
+        basicLargeBlocks.add(block);
+        registerBlockItem(name, block);
+        if (cutout) cutoutBlocks.add(block);
+        if (type != null) type.add(block);
+
+        return Registry.register(Registries.BLOCK,new Identifier(DaveSignCo.MOD_ID, name), block);
+    }
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(DaveSignCo.MOD_ID,name),new BlockItem(block,new Item.Settings()));

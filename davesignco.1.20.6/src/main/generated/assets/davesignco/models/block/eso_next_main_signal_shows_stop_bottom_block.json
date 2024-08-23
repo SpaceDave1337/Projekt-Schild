@@ -1,0 +1,7 @@
+{
+  "parent": "davesignco:base/basic_large_sign",
+  "textures": {
+    "all": "davesignco:block/eso_next_main_signal_shows_stop_bottom_block",
+    "particle": "davesignco:block/eso_next_main_signal_shows_stop_bottom_block"
+  }
+}

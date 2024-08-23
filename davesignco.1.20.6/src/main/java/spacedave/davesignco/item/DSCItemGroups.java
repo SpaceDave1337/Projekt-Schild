@@ -23,6 +23,9 @@ public class DSCItemGroups {
                         for (Block block : DSCBlocks.basicBlocks){
                             entries.add(block);
                         }
+                        for (Block block : DSCBlocks.basicLargeBlocks){
+                            entries.add(block);
+                        }
                     }))
                     .build());
     public static void registerItemGroups(){

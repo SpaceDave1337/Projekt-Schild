@@ -21,5 +21,9 @@ public class DSCBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(block);
             getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL).add(block);
         }
+        for (Block block : DSCBlocks.basicLargeBlocks){
+            getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(block);
+            getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL).add(block);
+        }
     }
 }

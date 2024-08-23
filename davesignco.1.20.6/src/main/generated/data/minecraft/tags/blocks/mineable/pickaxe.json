@@ -43,6 +43,9 @@
     "davesignco:eso_train_tail_night_block",
     "davesignco:eso_signal_mast_black_block",
     "davesignco:eso_signal_mast_red_block",
-    "davesignco:eso_signal_mast_white_block"
+    "davesignco:eso_signal_mast_white_block",
+    "davesignco:eso_next_main_signal_shows_stop_top_block",
+    "davesignco:eso_semaphore_block",
+    "davesignco:eso_next_main_signal_shows_stop_bottom_block"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "davesignco:base/basic_large_sign",
+  "textures": {
+    "all": "davesignco:block/eso_semaphore_block",
+    "particle": "davesignco:block/eso_semaphore_block"
+  }
+}
