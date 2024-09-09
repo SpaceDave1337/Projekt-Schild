@@ -50,5 +50,9 @@
 
   "block.davesignco.eso_signal_mast_black_block": "RSR Black Signal Mast",
   "block.davesignco.eso_signal_mast_red_block": "RSR Red Signal Mast",
-  "block.davesignco.eso_signal_mast_white_block": "RSR White Signal Mast"
+  "block.davesignco.eso_signal_mast_white_block": "RSR White Signal Mast",
+
+  "block.davesignco.eso_next_main_signal_shows_stop_top_block": "RSR Semaphore Advance Signal Top",
+  "block.davesignco.eso_next_main_signal_shows_stop_bottom_block": "RSR Semaphore Advance Signal Bottom",
+  "block.davesignco.eso_semaphore_block": "RSR Semaphore"
 }

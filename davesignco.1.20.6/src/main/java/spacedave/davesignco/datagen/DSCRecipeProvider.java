@@ -27,7 +27,7 @@ public class DSCRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) { //to be honest with you, I don't care if nested for loops are unoptimised, datagen will only run on my pc, and it's beefy enough (I'd still be happy if someone else would suggest anything better though)
         for (ItemConvertible itemConvertibleOut : DSCBlocks.classicBlocks) {
-            for (ItemConvertible itemConvertibleIn : DSCBlocks.stvoBlocks) {
+            for (ItemConvertible itemConvertibleIn : DSCBlocks.classicBlocks) {
                 if (itemConvertibleIn != itemConvertibleOut) {
                     offerStonecuttingRecipe(exporter, RecipeCategory.MISC, itemConvertibleIn, itemConvertibleOut);
                 }

@@ -14,4 +14,7 @@
 	-3 Colored Signal Masts (ESO 1959 Mastschild)
 -Added recipes
 -Changed item order in DSC tab
-x.x.x:
+0.3.0:
+-Added Semaphore (ESO 1959)
+-Added Advance Signals (ESO 1959)
+-Added Recipes
